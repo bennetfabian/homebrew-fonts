@@ -5,7 +5,7 @@ cask "font-hanken-grotesk" do
   url "https://github.com/marcologous/hanken-grotesk/trunk/fonts/ttf",
       using: :svn
   name "Hanken Grotesk"
-  desc "Hanken Grotesk font"
+  desc "Hanken Grotesk typeface"
   homepage "https://github.com/marcologous/hanken-grotesk"
 
   font "HankenGrotesk-Black.ttf"

@@ -5,7 +5,7 @@ cask "font-open-sauce" do
   url "https://github.com/marcologous/Open-Sauce-Fonts/trunk/fonts",
       using: :svn
   name "Open Sauce"
-  desc "Open Sauce fonts"
+  desc "Open Sauce typeface"
   homepage "https://github.com/marcologous/Open-Sauce-Fonts"
 
   font "OpenSauceOne-Black.ttf"

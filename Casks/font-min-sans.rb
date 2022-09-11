@@ -5,7 +5,7 @@ cask "font-min-sans" do
   url "https://github.com/poposnail61/min-sans/trunk/fonts/static",
       using: :svn
   name "Min Sans"
-  desc "Min Sans font"
+  desc "Min Sans typeface"
   homepage "https://github.com/poposnail61/min-sans"
 
   font "MinSans-Thin.otf"

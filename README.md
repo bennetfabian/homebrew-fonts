@@ -9,5 +9,6 @@ Or `brew tap bennetfabian/fonts` and then `brew install --fonts <cask>`.
 ## Containing
 - [Hanken Grotesk](https://github.com/marcologous/hanken-grotesk)
 - [Min Sans](https://github.com/poposnail61/min-sans)
+- [Open Sauce](https://github.com/marcologous/Open-Sauce-Fonts)
 - [Shantell Sans](https://github.com/arrowtype/shantell-sans)
 - [Unbounded](https://github.com/w3f/unbounded)

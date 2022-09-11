@@ -5,7 +5,7 @@ cask "font-shantell-sans-variable" do
   url "https://github.com/arrowtype/shantell-sans/trunk/fonts/Shantell%20Sans/Desktop",
       using: :svn
   name "Shantell Sans"
-  desc "Shantell Sans font"
+  desc "Shantell Sans typeface"
   homepage "https://github.com/arrowtype/shantell-sans"
 
   font "ShantellSans[BNCE,IRGL,TRAK,ital,wght].ttf"

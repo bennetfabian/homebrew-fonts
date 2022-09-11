@@ -6,7 +6,7 @@ cask "font-unbounded-variable" do
       using:    :svn,
       verified: "https://github.com/w3f/unbounded"
   name "Unbounded"
-  desc "Unbounded font"
+  desc "Unbounded typeface"
   homepage "https://unbounded.polkadot.network/"
 
   font "Unbounded-Variable.ttf"
