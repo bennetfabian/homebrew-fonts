@@ -8,3 +8,5 @@ Or `brew tap bennetfabian/fonts` and then `brew install --fonts <cask>`.
 
 ## Containing
 - [Min Sans](https://github.com/poposnail61/min-sans)
+- [Shantell Sans](https://github.com/arrowtype/shantell-sans)
+- [Unbounded](https://github.com/w3f/unbounded)
