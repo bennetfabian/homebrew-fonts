@@ -2,8 +2,10 @@ cask "font-open-sauce" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/marcologous/Open-Sauce-Fonts/trunk/fonts",
-      using: :svn
+  url "https://github.com/marcologous/Open-Sauce-Fonts",
+      using:     :git,
+      branch:    "master",
+      only_path: "fonts"
   name "Open Sauce"
   desc "Open Sauce typeface"
   homepage "https://github.com/marcologous/Open-Sauce-Fonts"

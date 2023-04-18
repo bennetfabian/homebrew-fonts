@@ -2,8 +2,10 @@ cask "font-shantell-sans" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/arrowtype/shantell-sans/trunk/fonts/Shantell%20Sans/Desktop/Static/OTF",
-      using: :svn
+  url "https://github.com/arrowtype/shantell-sans/",
+      using:     :git,
+      branch:    "main",
+      only_path: "fonts/Shantel Sans/Desktop/Static/OTF"
   name "Shantell Sans"
   desc "Shantell Sans typeface"
   homepage "https://github.com/arrowtype/shantell-sans"

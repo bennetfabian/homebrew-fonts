@@ -2,9 +2,10 @@ cask "font-e-ukraine" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/bennetfabian/e-Ukraine/trunk",
-      verified: "https://github.com/bennetfabian/e-Ukraine",
-      using:    :svn
+  url "https://github.com/bennetfabian/e-Ukraine",
+      verified: "github.com/bennetfabian/e-Ukraine",
+      using:    :git,
+      branch:   "main"
   name "e-Ukraine"
   desc "Official font of the government of Ukraine"
   homepage "https://thedigital.gov.ua/fonts"

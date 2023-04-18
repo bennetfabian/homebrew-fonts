@@ -2,8 +2,10 @@ cask "font-estedad-fd" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/aminabedi68/Estedad/trunk/fonts/ttf/FD",
-      using: :svn
+  url "https://github.com/aminabedi68/Estedad",
+      using:     :git,
+      branch:    "master",
+      only_path: "fonts/ttf/FD"
   name "Estedad"
   desc "Estedad typeface"
   homepage "https://github.com/aminabedi68/Estedad"
