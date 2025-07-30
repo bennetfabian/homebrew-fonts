@@ -5,7 +5,7 @@ cask "font-aspekta" do
   url "https://github.com/ivodolenc/aspekta",
       using:     :git,
       branch:    "main",
-      only_path: "fonts/otf"
+      only_path: "packages/fonts/otf"
   name "Aspekta"
   desc "Modern sans-serif collection inspired by a clean, simple and neutral style"
   homepage "https://github.com/ivodolenc/aspekta"
