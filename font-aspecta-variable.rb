@@ -1,15 +1,10 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class FontAspectaVariable < Formula
-  desc "Modern sans-serif font family."
+  desc "Modern sans-serif font family"
   homepage "https://github.com/ivodolenc/aspekta"
   url "https://github.com/ivodolenc/aspekta/archive/refs/tags/@aspekta/fonts@2.100.tar.gz"
   version "@aspekta/fonts@2.100"
   sha256 "3c8dd534dd828d68407afef8d6fb75092a1e30aa9513a5f20b12565f7597a191"
   license "OFL-1.1"
-
-  # depends_on "cmake" => :build
 
   # Additional dependency
   # resource "" do
@@ -21,7 +16,6 @@ class FontAspectaVariable < Formula
     # Remove unrecognized options if they cause configure to fail
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     system "./configure", "--disable-silent-rules", *std_configure_args
-    # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
   end
 
   test do
