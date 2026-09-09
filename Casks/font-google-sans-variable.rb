@@ -3,7 +3,6 @@ cask "font-google-sans-variable" do
   sha256 :no_check
 
   url "https://github.com/bennetfabian/font-mirror.git",
-      verified:  "github.com/bennetfabian/font-mirror",
       branch:    "main",
       only_path: "Google Sans"
   name "Google Sans"

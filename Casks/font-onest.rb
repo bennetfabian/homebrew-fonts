@@ -2,8 +2,7 @@ cask "font-onest" do
   version :latest
   sha256 :no_check
 
-  url "https://raw.githubusercontent.com/vermoh/Onest/main/Onest.zip",
-      verified: "raw.githubusercontent.com/vermoh/Onest/main/Onest.zip"
+  url "https://raw.githubusercontent.com/vermoh/Onest/main/Onest.zip"
   name "Onest"
   desc "First typeface designed for Moldova to make communication more open and honest"
   homepage "https://onest.md/en"

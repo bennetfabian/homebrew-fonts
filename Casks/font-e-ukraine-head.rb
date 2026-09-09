@@ -3,7 +3,6 @@ cask "font-e-ukraine-head" do
   sha256 :no_check
 
   url "https://github.com/bennetfabian/e-Ukraine",
-      verified: "github.com/bennetfabian/e-Ukraine",
       using:    :git,
       branch:   "main"
   name "e-Ukraine Head"
